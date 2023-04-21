@@ -1,0 +1,14 @@
+.product_name a {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* giới hạn 3 dòng */
+  overflow: hidden;
+  text-overflow: ellipsis; /* thêm dấu "..." ở cuối */
+  max-height: calc(1.5em * 3); /* tính max-height dựa trên line-height */
+  line-height: 1.5em; /* chiều cao của một dòng */
+}
+.header_logo img {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+}
